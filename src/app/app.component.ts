@@ -8,16 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'my-flowx-app';
 
-  baseApiUrl = 'https://admin.qa.flowxai.dev';
+  baseApiUrl = 'https://public.qa.flowxai.dev';
   processApiPath = '/onboarding';
-  processName = 81301;
+  processName = 'custom-component-demo';
   processStartData = {};
-  debugLogs = false;
+  debugLogs = true;
   keepState = false;
   language = 'ro-RO';
-  isDraft = true;
+  isDraft = false;
 
   ngOnInit(): void {
-    // localStorage.setItem('access_token');
+    // YOU HAVE TO PUT THE AUTH JWT TOKEN HERE (IN THE LOCAL STORAGE)
+    // THIS IS WHERE THE RENDERER WILL LOOK FOR IT
+    localStorage.setItem('access_token', '');
   }
 }
