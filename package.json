@@ -23,9 +23,9 @@
     "@angular/platform-browser": "~11.0.9",
     "@angular/platform-browser-dynamic": "~11.0.9",
     "@angular/router": "~11.0.9",
-    "flowx-process-renderer": "2.5.0",
+    "flowx-process-renderer": "2.17.7",
     "moment": "^2.29.1",
-    "paperflow-web-components": "0.2.1",
+    "paperflow-web-components": "0.2.6",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
