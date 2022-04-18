@@ -11,12 +11,14 @@ import { AuthInterceptor } from './auth.interceptor';
 import {MyCustomComponent} from './my-custom-component/my-custom.component';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [AppComponent, MyCustomComponent],
   imports: [
     BrowserModule,
     CommonModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
