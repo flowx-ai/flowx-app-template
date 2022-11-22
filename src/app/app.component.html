@@ -1,12 +1,4 @@
-<h1>Flowx App Template</h1>
-
-<flx-process-renderer
-  [apiUrl]="baseApiUrl"
-  [processApiPath]="processApiPath"
-  [processName]="processName"
-  [processStartData]="processStartData"
-  [debugLogs]="debugLogs"
-  [keepState]="keepState"
-  [language]="language"
-  [isDraft]="isDraft"
-></flx-process-renderer>
+<div fxLayout="column" class="">
+  <app-header></app-header>
+  <router-outlet></router-outlet>
+</div>
