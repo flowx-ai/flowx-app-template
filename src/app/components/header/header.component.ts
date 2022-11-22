@@ -10,11 +10,9 @@ import {FormControl, FormGroup} from '@angular/forms';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  public availableLanguages: Language[] = this.localizationService.getAvailableLanges();
-  // @ts-ignore
-  public selectedLanguage: Language;
-  // @ts-ignore
-  public languageForm: FormGroup;
+   availableLanguages: Language[] = this.localizationService.getAvailableLanges();
+   selectedLanguage: Language | undefined;
+   languageForm: FormGroup | undefined;
 
   constructor(
     private location: Location,
