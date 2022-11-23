@@ -1,0 +1,17 @@
+<div class="app-header" fxLayout="row" fxLayoutAlign="space-between center">
+    <div fxLayout="row" fxLayoutAlign="start center">
+        <a [routerLink]="['']" fxLayout="row" fxLayoutAlign="start center">
+            <img class="flowx-logo" alt="flowx logo" src="assets/flowx-black.png"/>
+        </a>
+    </div>
+
+
+  <div fxLayoutAlign="end center" fxLayout="row" fxLayoutGap="15px">
+    <form [formGroup]="languageForm">
+      <ppf-select style="margin-top: -19px; width: 100px" type="line" [options]="availableLanguages" formControlName="selectedLanguage">
+      </ppf-select>
+    </form>
+
+    <ppf-icon class="logout cursor-pointer" name="logoutIcon" (click)="logout()"></ppf-icon>
+  </div>
+</div>
