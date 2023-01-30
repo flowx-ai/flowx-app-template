@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "14.2.9",
     "@angular/router": "14.2.9",
     "flowx-process-renderer": "2.76.2",
+    "angular-oauth2-oidc": "12.0.2",
     "moment": "2.29.1",
     "paperflow-web-components": "2.76.2",
     "rxjs": "7.5.2",
