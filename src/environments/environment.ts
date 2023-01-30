@@ -12,9 +12,6 @@ export const environment = {
   staticAssetsPath: 'https://d2l8u5oe5161s.cloudfront.net/training/',
 
   processApiPath: '/onboarding',
-
-  kapschApiUrl: 'https://ids-test.bt.wan:8888',
-  webmailUrl: 'https://webmail.btrl.ro',
   scanTimeout: 50000,
 
   keycloak: {
@@ -42,22 +39,3 @@ export const environment = {
     disableAtHashCheck: false,
   }
 };
-
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
-
-
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
