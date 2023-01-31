@@ -69,7 +69,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -84,7 +84,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "my-flowx-app:build"
+            "browserTarget": "my-flowx-app:build",
+            "port": 4300
           },
           "configurations": {
             "production": {
@@ -143,5 +144,7 @@
       }
     }
   },
-  "defaultProject": "my-flowx-app"
+  "cli": {
+    "analytics": "6d89fa22-f1f7-4f98-9693-b4475f377bcb"
+  }
 }
