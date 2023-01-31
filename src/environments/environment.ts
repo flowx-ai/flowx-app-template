@@ -9,7 +9,7 @@
 export const environment = {
   production: false,
   baseUrl: 'https://public.training.flowxai.dev',
-  staticAssetsPath: 'https://d2l8u5oe5161s.cloudfront.net/training/',
+  staticAssetsPath: 'https://d2l8u5oe5161s.cloudfront.net/training',
 
   processApiPath: '/onboarding',
   scanTimeout: 50000,
