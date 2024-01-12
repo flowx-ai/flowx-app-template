@@ -9,6 +9,7 @@ import {Observable} from 'rxjs';
 export class MyCustomComponent implements OnInit {
   @Input() data$: Observable<any> | null = null;
 
+  inputData: any;
   name: string = '';
 
   actions: { saveData: (params?: any) => Observable<any>} | null = null;
@@ -16,6 +17,7 @@ export class MyCustomComponent implements OnInit {
   ngOnInit(): void {
     this.data$?.subscribe((data) => {
       console.log('received data in custom component', data);
+      this.inputData = data.inputData;
       this.actions = data.actionsFn;
     });
   }

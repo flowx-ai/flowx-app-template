@@ -1,0 +1,3680 @@
+[
+  {
+    "elementName": "accordion",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "boxShadow",
+        "reference": "dropShadow@xs",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "card",
+    "genericProperties": [
+      {
+        "name": "backgroundColor",
+        "reference": "color@shades-0",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "color",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "titleFont",
+        "reference": "typography@Heading/H6/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "subtitleFont",
+        "reference": "typography@Paragraph/P2/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "contentFont",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "border",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "raised",
+        "properties": [
+          {
+            "name": "boxShadow",
+            "reference": "dropShadow@m",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "titleFont",
+            "reference": "typography@Heading/H6/Semi Bold",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "subtitleFont",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "titleFont",
+            "reference": "typography@Heading/H6/Semi Bold",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "subtitleFont",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "collection",
+    "genericProperties": [
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "collectionPrototype",
+    "genericProperties": [
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "container",
+    "genericProperties": [
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "documentPreview",
+    "genericProperties": [
+      {
+        "name": "backgroundColor",
+        "reference": "color@neutrals-50",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "borderColor",
+        "reference": "color@neutrals-100",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "titleFont",
+        "reference": "typography@Paragraph/P1/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "subtitleFont",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "titleColor",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "subtitleColor",
+        "reference": "color@neutrals-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "icons": {
+      "leftIcon": {
+        "default": null,
+        "ios": "Files",
+        "android": "Files"
+      },
+      "rightIcon": {
+        "default": null,
+        "ios": "CaretDown",
+        "android": "CaretDown"
+      },
+      "viewIcon": {
+        "default": null,
+        "ios": "Eye",
+        "android": "Eye"
+      },
+      "shareIcon": {
+        "default": null,
+        "ios": "Export",
+        "android": "ShareNetwork"
+      },
+      "errorIcon": {
+        "default": null,
+        "ios": "FileX",
+        "android": "FileX"
+      },
+      "emptyIcon": {
+        "default": null,
+        "ios": "File",
+        "android": "File"
+      },
+      "reloadIcon": {
+        "default": null,
+        "ios": "ArrowsClockwise_24",
+        "android": "ArrowsClockwise_24"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "ios",
+        "properties": []
+      },
+      {
+        "name": "android",
+        "properties": []
+      }
+    ]
+  },
+  {
+    "elementName": "form",
+    "genericProperties": [
+      {
+        "name": "color",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "titleFont",
+        "reference": "typography@Heading/H6/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "titleFont",
+            "reference": "typography@Heading/H6/Semi Bold",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "titleFont",
+            "reference": "typography@Heading/H6/Semi Bold",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "16",
+            "unit": "px"
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "0",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "link",
+    "genericProperties": [
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "color",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": []
+  },
+  {
+    "elementName": "message",
+    "genericProperties": [
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "8",
+        "unit": "px"
+      },
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "10",
+        "unit": "px"
+      },
+      {
+        "name": "linkColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "icons": {
+      "successIcon": {
+        "default": null,
+        "ios": "CheckCircle",
+        "android": "CheckCircle"
+      },
+      "warningIcon": {
+        "default": null,
+        "ios": "Warning",
+        "android": "Warning"
+      },
+      "infoIcon": {
+        "default": null,
+        "ios": "InfoCircle",
+        "android": "InfoCircle"
+      },
+      "errorIcon": {
+        "default": null,
+        "ios": "WarningCircle",
+        "android": "WarningCircle"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "text",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "success",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@success-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "warning",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@warning-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "error",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@error-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "info",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@primary-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "border",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderWidth",
+            "reference": null,
+            "value": "1",
+            "unit": "px"
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "success",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@success-500",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@success-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "warning",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@warning-500",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@warning-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "error",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@error-500",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@error-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "info",
+            "properties": [
+              {
+                "name": "iconColor",
+                "reference": "color@primary-500",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@primary-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "fill",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "iconColor",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "success",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@success-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "warning",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@warning-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "error",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@error-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "info",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@primary-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "stepper",
+    "genericProperties": [
+      {
+        "name": "backgroundColor",
+        "reference": "color@neutrals-50",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "titleColor",
+        "reference": "color@shades-100",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "titleFont",
+        "reference": "typography@Heading/H5/Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "subtitleColor",
+        "reference": "color@neutrals-700",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "subtitleFont",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "progressColor",
+        "reference": "color@shades-100",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "progressFont",
+        "reference": "typography@Paragraph/P2/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "circleBorderColor",
+        "reference": "color@neutrals-100",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "circleBorderWidth",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "accentColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "substepAccentColor",
+        "reference": "color@primary-200",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "height",
+        "reference": null,
+        "value": "100",
+        "unit": null
+      }
+    ],
+    "modifiers": []
+  },
+  {
+    "elementName": "stepperExpanded",
+    "genericProperties": [
+      {
+        "name": "backgroundColor",
+        "reference": "color@neutrals-50",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "stepsBackgroundColor",
+        "reference": "color@shades-0",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "accentColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "stepsBorderRadius",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "stepColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "stepFont",
+        "reference": "typography@Paragraph/P2/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "titleColor",
+        "reference": "color@neutrals-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "titleFont",
+        "reference": "typography@Paragraph/P2/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "subtitleColor",
+        "reference": "color@neutrals-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "subtitleFont",
+        "reference": "typography@Paragraph/P2/Regular",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "stepColor",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "titleColor",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "subtitleColor",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "subtitleFont",
+            "reference": "typography@Paragraph/P2/Semi Bold",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "stepper-web",
+    "genericProperties": [
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "stepBorderColor",
+        "reference": "color@neutrals-200",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "stepIndexFont",
+        "reference": "typography@Caption/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "accentColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "accentForegroundColor",
+        "reference": "color@shades-0",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "accentHover",
+        "reference": "color@primary-300",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": []
+  },
+  {
+    "elementName": "text",
+    "genericProperties": [
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "color",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "linkColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": []
+  },
+  {
+    "elementName": "button",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "iconWidth",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "iconHeight",
+        "reference": null,
+        "value": "16",
+        "unit": "px"
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "7",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "32",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "7",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "32",
+        "unit": "px"
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Semi Bold",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "primary",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "hover",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@primary-300",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "pressed",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@primary-600",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "disabled",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@neutrals-200",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "color",
+                "reference": "color@neutrals-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "secondary",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@secondary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@shades-100",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "hover",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@secondary-300",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "pressed",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@secondary-600",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "disabled",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@neutrals-200",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "color",
+                "reference": "color@neutrals-500",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ghost",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": null,
+            "value": "#fff0",
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderWidth",
+            "reference": null,
+            "value": "1",
+            "unit": "px"
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "hover",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@primary-300",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@primary-300",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "pressed",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@primary-600",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@primary-600",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "disabled",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@neutrals-400",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@neutrals-300",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "backgroundColor",
+                "reference": "color@shades-0",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "text",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": null,
+            "value": "#fff0",
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "hover",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@primary-300",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "pressed",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@primary-600",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "disabled",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": null,
+                "value": "#fff0",
+                "unit": null
+              },
+              {
+                "name": "color",
+                "reference": "color@neutrals-400",
+                "value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "name": "focus",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@neutrals-50",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "icon-center",
+        "properties": [
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "focus",
+        "properties": [
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "10",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "50",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Semi Bold",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "22",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "44",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Semi Bold",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "checkbox",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "14",
+        "unit": "px"
+      },
+      {
+        "name": "checkColor",
+        "reference": "color@shades-0",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "icons": {
+      "selectedIcon": {
+        "default": null,
+        "ios": "M_CheckboxChecked",
+        "android": "M_CheckboxChecked"
+      },
+      "unselectedIcon": {
+        "default": null,
+        "ios": "M_CheckboxUnchecked",
+        "android": "M_CheckboxUnchecked"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "checkboxColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineWidth",
+            "reference": null,
+            "value": "2",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "checked",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@primary-50",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "checkboxColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "disabled",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@neutrals-600",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@neutrals-100",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "checkboxColor",
+                "reference": "color@primary-200",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "checkboxColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "8",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "10",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "10",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "4",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "14",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "14",
+            "unit": "px"
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "datePicker",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "calendarBackground",
+        "reference": "color@shades-0",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "calendarTextColor",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "calendarLightTextColor",
+        "reference": "color@neutrals-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "calendarDisabledColor",
+        "reference": "color@neutrals-300",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "calendarHover",
+        "reference": "color@primary-50",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "accentColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "icons": {
+      "calendarIcon": {
+        "default": null,
+        "ios": "CalendarBlank",
+        "android": "CalendarBlank"
+      },
+      "disclosureIcon": {
+        "default": null,
+        "ios": "CaretDown",
+        "android": "CaretDown"
+      },
+      "clearIcon": {
+        "default": null,
+        "ios": "XCircle",
+        "android": "XCircle"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "filled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "error",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@error-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "8",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "44",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "4",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "56",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "inputError",
+    "genericProperties": [
+      {
+        "name": "color",
+        "reference": "color@error-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "font",
+        "reference": "typography@Caption/Regular",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P1/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P1/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "inputHelper",
+    "genericProperties": [
+      {
+        "name": "color",
+        "reference": "color@neutrals-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "font",
+        "reference": "typography@Caption/Regular",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "icons": {
+      "helperIcon": {
+        "default": null,
+        "ios": "Info_24",
+        "android": "Info_24"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P1/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P1/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "input",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "borderColor",
+        "reference": "color@neutrals-200",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "color",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "suffixColor",
+        "reference": "color@neutrals-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "prefixColor",
+        "reference": "color@neutrals-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "suffixFont",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "prefixFont",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "icons": {
+      "clearIcon": {
+        "default": null,
+        "ios": "XCircle_24",
+        "android": "XCircle_24"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "suffixColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "prefixColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "empty",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@neutrals-300",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "error",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@error-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "8",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "44",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "suffixFont",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "prefixFont",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "4",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "56",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "suffixFont",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "prefixFont",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "label",
+    "genericProperties": [
+      {
+        "name": "color",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Semi Bold",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "linkColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P1/Semi Bold",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Caption/Semi Bold",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "radio",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "gap",
+        "reference": null,
+        "value": "14",
+        "unit": "px"
+      }
+    ],
+    "icons": {
+      "selectedIcon": {
+        "default": null,
+        "ios": "H_RadioChecked",
+        "android": "M_RadioChecked"
+      },
+      "unselectedIcon": {
+        "default": null,
+        "ios": "H_RadioUnchecked",
+        "android": "M_RadioUnchecked"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "radioColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineWidth",
+            "reference": null,
+            "value": "2",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "checked",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@primary-50",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "radioColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "disabled",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@neutrals-600",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@neutrals-100",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "radioColor",
+                "reference": "color@primary-200",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "radioColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "8",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "10",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "10",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "4",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "paddingTop",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "paddingLeft",
+            "reference": null,
+            "value": "14",
+            "unit": "px"
+          },
+          {
+            "name": "paddingBottom",
+            "reference": null,
+            "value": "12",
+            "unit": "px"
+          },
+          {
+            "name": "paddingRight",
+            "reference": null,
+            "value": "14",
+            "unit": "px"
+          },
+          {
+            "name": "gap",
+            "reference": null,
+            "value": "8",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "segmentedButton",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderColor",
+        "reference": "color@neutrals-200",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "5",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "24",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "5",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "24",
+        "unit": "px"
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "pressed",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@primary-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "selected",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "disabled",
+            "properties": [
+              {
+                "name": "color",
+                "reference": "color@neutrals-500",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "backgroundColor",
+                "reference": "color@neutrals-200",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "focus",
+        "properties": [
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": []
+      },
+      {
+        "name": "android",
+        "properties": []
+      }
+    ]
+  },
+  {
+    "elementName": "select",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      }
+    ],
+    "icons": {
+      "disclosureIcon": {
+        "default": null,
+        "ios": "CaretDown_24",
+        "android": "CaretDown_24"
+      },
+      "clearIcon": {
+        "default": null,
+        "ios": "XCircle",
+        "android": "XCircle"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "filled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "error",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@error-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "8",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "44",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "4",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "56",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "select-option",
+    "genericProperties": [
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "unselected",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-900",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@neutrals-50",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@primary-50",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "46",
+            "unit": "px"
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "56",
+            "unit": "px"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "slider",
+    "genericProperties": [
+      {
+        "name": "font",
+        "reference": "typography@Heading/H4/Semi Bold",
+        "value": "small",
+        "unit": null
+      },
+      {
+        "name": "color",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "limitsFont",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "limitsColor",
+        "reference": "color@neutrals-800",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "backgroundColor",
+        "reference": "color@neutrals-200",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "accentColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "limitsColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "backgroundColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@neutrals-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": []
+      },
+      {
+        "name": "android",
+        "properties": []
+      }
+    ]
+  },
+  {
+    "elementName": "switch",
+    "genericProperties": [
+      {
+        "name": "backgroundColor",
+        "reference": "color@shades-0",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "borderColor",
+        "reference": "color@neutrals-300",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "accentColor",
+        "reference": "color@primary-500",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "accentColor",
+            "reference": "color@neutrals-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "checked",
+        "properties": [
+          {
+            "name": "backgroundColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@shades-0",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "checked",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@primary-300",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@primary-300",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ],
+        "modifiers": [
+          {
+            "name": "checked",
+            "properties": [
+              {
+                "name": "backgroundColor",
+                "reference": "color@primary-100",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "borderColor",
+                "reference": "color@primary-100",
+                "value": null,
+                "unit": null
+              },
+              {
+                "name": "accentColor",
+                "reference": "color@shades-0",
+                "value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "elementName": "textarea",
+    "genericProperties": [
+      {
+        "name": "borderRadius",
+        "reference": null,
+        "value": "4",
+        "unit": "px"
+      },
+      {
+        "name": "borderWidth",
+        "reference": null,
+        "value": "1",
+        "unit": "px"
+      },
+      {
+        "name": "borderColor",
+        "reference": "color@neutrals-200",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "color",
+        "reference": "color@neutrals-900",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "font",
+        "reference": "typography@Paragraph/P1/Regular",
+        "value": null,
+        "unit": null
+      },
+      {
+        "name": "paddingTop",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingRight",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      },
+      {
+        "name": "paddingBottom",
+        "reference": null,
+        "value": "6",
+        "unit": "px"
+      },
+      {
+        "name": "paddingLeft",
+        "reference": null,
+        "value": "12",
+        "unit": "px"
+      }
+    ],
+    "icons": {
+      "clearIcon": {
+        "default": null,
+        "ios": "XCircle_24",
+        "android": "XCircle_24"
+      }
+    },
+    "modifiers": [
+      {
+        "name": "empty",
+        "properties": [
+          {
+            "name": "color",
+            "reference": "color@neutrals-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "active",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "outlineColor",
+            "reference": "color@primary-200",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "hover",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@neutrals-100",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "backgroundColor",
+            "reference": "color@neutrals-50",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "color",
+            "reference": "color@neutrals-300",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "error",
+        "properties": [
+          {
+            "name": "borderColor",
+            "reference": "color@error-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "ios",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "8",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "90",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      },
+      {
+        "name": "android",
+        "properties": [
+          {
+            "name": "borderRadius",
+            "reference": null,
+            "value": "4",
+            "unit": null
+          },
+          {
+            "name": "height",
+            "reference": null,
+            "value": "90",
+            "unit": null
+          },
+          {
+            "name": "font",
+            "reference": "typography@Paragraph/P2/Regular",
+            "value": null,
+            "unit": null
+          },
+          {
+            "name": "accentColor",
+            "reference": "color@primary-500",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ]
+  }
+]

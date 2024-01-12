@@ -1,7 +1,4 @@
-export const logoutIcon = {
-    name: 'logoutIcon',
-    data: `
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+export const logoutIcon =`<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
     <defs>
         <clipPath id="clip-path">
             <path id="Path_15372" d="M16 0a16 16 0 0 0 16-16 16 16 0 0 0-16-16A16 16 0 0 0 0-16 16 16 0 0 0 16 0z" class="Group_19638cls-1"/>
@@ -36,6 +33,4 @@ export const logoutIcon = {
             </g>
         </g>
     </g>
-</svg>
-`
-};
+</svg>`
