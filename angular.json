@@ -30,17 +30,18 @@
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "node_modules/paperflow-web-components/src/assets/fonts",
-                "output": "/ppf-assets/fonts"
+                "input": "node_modules/ng2-pdfjs-viewer/pdfjs",
+                "output": "/assets/pdfjs"
               }
             ],
             "styles": [
               "src/styles.scss",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "./node_modules/flowx-process-renderer/src/assets/scss/style.scss"
+              "./node_modules/@flowx/ui-sdk/src/assets/scss/style.scss"
             ],
             "stylePreprocessorOptions": {
-              "includePaths": ["./node_modules/paperflow-web-components/src/assets/scss", "src/styles","./node_modules/flowx-process-renderer/src/assets/scss"]
+              "includePaths": ["src/styles",
+                "./node_modules/@flowx/ui-sdk/src/assets/scss"]
             },
             "scripts": [],
             "vendorChunk": true,
@@ -85,7 +86,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "my-flowx-app:build",
-            "port": 4300
+            "port": 4200
           },
           "configurations": {
             "production": {

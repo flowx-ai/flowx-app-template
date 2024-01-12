@@ -1,5 +1,3 @@
-@use 'ppf-theme';
-@use 'ppf-typography';
 @import 'fonts';
 
 $primary: #217ce2;
@@ -8,33 +6,13 @@ $secondary: #fff3be;
 $text-color: #414751;
 
 $flowx-blue: $primary;
-$flowx-green:$green;
+$flowx-green: $green;
 $flowx-red: #d11751;
 $warning: #eaa106;
 $background1: #fafbfd;
 $background2: #ffffff;
 $background3: #c3c8d4;
 
-
-$flowx-theme: (
-  'primary': (
-    'color1': $flowx-blue,
-    'color2': $secondary,
-    'color3': $text-color,
-  ),
-  'status': (
-    'success': $flowx-green,
-    'warning': $warning,
-    'error': $flowx-red,
-  ),
-  'background': (
-    'background1': $background1,
-    'background2': $background2,
-    'background3': $background3,
-  ),
-);
-
-@include ppf-theme.ppf-theme($flowx-theme);
 
 html {
   box-sizing: border-box;
@@ -48,5 +26,5 @@ body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @include ppf-typography.common-styles('Open-Sans');
+
 }

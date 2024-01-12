@@ -2,8 +2,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 
-import {FlxProcessModule} from 'flowx-process-renderer';
-import {ButtonModule, CardModule, IconModule, SelectModule} from 'paperflow-web-components';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
@@ -19,6 +17,10 @@ import {MainPage} from './components/main/main.page';
 import {HeaderComponent} from './components/header/header.component';
 import {AuthConfigModule} from './modules/auth/auth.module';
 import {ErrorInterceptor} from './modules/auth/error.interceptor';
+import {FlxButtonModule, FlxCardModule, FlxFormControlModule, FlxIconModule} from '@flowx/ui-toolkit';
+import {IconModule, ToastModule} from "paperflow-web-components";
+import {FlxThemeModule} from '@flowx/ui-theme';
+
 
 @NgModule({
   declarations: [AppComponent, MyCustomComponent, HeaderComponent, MainPage],
@@ -31,19 +33,19 @@ import {ErrorInterceptor} from './modules/auth/error.interceptor';
     FormsModule,
     ReactiveFormsModule,
     FlexModule,
-    FlxProcessModule.forRoot({
-      components: {},
-      services: {},
-    }),
-    IconModule.forRoot({
-      icons: [
-        logoutIcon
-      ]
+    IconModule.forRoot({icons: []}),
+    ToastModule,
+    FlxIconModule.withExtraIconSet({
+      logoutIcon
     }),
     AuthConfigModule,
-    ButtonModule,
-    CardModule,
-    SelectModule
+    FlxButtonModule,
+    FlxCardModule,
+    FlxFormControlModule,
+    FlxThemeModule.withConfig({
+      componentsPath: 'assets/theme/theme_components.json',
+      tokensPath: 'assets/theme/theme_tokens.json'
+    }),
   ],
   providers: [
     {provide: 'BASE_URL', useValue: environment.baseUrl},

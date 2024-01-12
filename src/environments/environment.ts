@@ -8,22 +8,22 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://public.training.flowxai.dev',
-  staticAssetsPath: 'https://d2l8u5oe5161s.cloudfront.net/training',
+  baseUrl: 'https://public-academy.playground.flowxai.dev',
+  staticAssetsPath: 'https://d2l8u5oe5161s.cloudfront.net/training/flowx',
 
   processApiPath: '/onboarding',
   scanTimeout: 50000,
 
   keycloak: {
     // Url of the Identity Provider
-    issuer: 'https://auth.training.flowxai.dev/auth/realms/flowxai',
+    issuer: 'https://auth-academy.playground.flowxai.dev/auth/realms/flowx',
 
     // URL of the SPA to redirect the user to after login
-    redirectUri: 'http://localhost:4300/',
+    redirectUri: 'http://localhost:4200/',
 
     // The SPA's id.
     // The SPA is registerd with this id at the auth-serverß
-    clientId: 'flowxai',
+    clientId: 'flowx-platform-authenticate',
 
     responseType: 'code',
     // set the scope for the permissions the client should request
