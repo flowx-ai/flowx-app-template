@@ -1,26 +1,29 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
-import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
-
-import {AppRoutingModule} from './app-routing.module';
-import {AppComponent} from './app.component';
-import {AuthInterceptor} from './auth.interceptor';
-import {CommonModule} from '@angular/common';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {environment} from '../environments/environment';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {FlexModule} from '@angular/flex-layout';
-import {logoutIcon} from './services/icons';
-import {MyCustomComponent} from './components/my-custom-component/my-custom.component';
-import {MainPage} from './components/main/main.page';
-import {HeaderComponent} from './components/header/header.component';
-import {AuthConfigModule} from './modules/auth/auth.module';
-import {ErrorInterceptor} from './modules/auth/error.interceptor';
-import {FlxButtonModule, FlxCardModule, FlxFormControlModule, FlxIconModule} from '@flowx/ui-toolkit';
-import {IconModule, ToastModule} from "paperflow-web-components";
-import {FlxThemeModule} from '@flowx/ui-theme';
-
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { AuthInterceptor } from './auth.interceptor';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { environment } from '../environments/environment';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexModule } from '@angular/flex-layout';
+import { logoutIcon } from './services/icons';
+import { MyCustomComponent } from './components/my-custom-component/my-custom.component';
+import { MainPage } from './components/main/main.page';
+import { HeaderComponent } from './components/header/header.component';
+import { AuthConfigModule } from './modules/auth/auth.module';
+import { ErrorInterceptor } from './modules/auth/error.interceptor';
+import {
+  FlxButtonModule,
+  FlxCardModule,
+  FlxFormControlModule,
+  FlxIconModule,
+} from '@flowx/ui-toolkit';
+import { IconModule, ToastModule } from 'paperflow-web-components';
+import { FlxThemeModule } from '@flowx/ui-theme';
 
 @NgModule({
   declarations: [AppComponent, MyCustomComponent, HeaderComponent, MainPage],
@@ -33,28 +36,24 @@ import {FlxThemeModule} from '@flowx/ui-theme';
     FormsModule,
     ReactiveFormsModule,
     FlexModule,
-    IconModule.forRoot({icons: []}),
+    IconModule.forRoot({ icons: [] }),
     ToastModule,
     FlxIconModule.withExtraIconSet({
-      logoutIcon
+      logoutIcon,
     }),
     AuthConfigModule,
     FlxButtonModule,
     FlxCardModule,
     FlxFormControlModule,
-    FlxThemeModule.withConfig({
-      componentsPath: 'assets/theme/theme_components.json',
-      tokensPath: 'assets/theme/theme_tokens.json'
-    }),
+    FlxThemeModule,
   ],
   providers: [
-    {provide: 'BASE_URL', useValue: environment.baseUrl},
-    {provide: 'STATIC_ASSETS_URL', useValue: environment.staticAssetsPath},
-    {provide: 'PROCESS_API_PATH', useValue: environment.processApiPath},
-    {provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true},
-    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
+    { provide: 'BASE_URL', useValue: environment.baseUrl },
+    { provide: 'STATIC_ASSETS_URL', useValue: environment.staticAssetsPath },
+    { provide: 'PROCESS_API_PATH', useValue: environment.processApiPath },
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+    { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule {
-}
+export class AppModule {}
